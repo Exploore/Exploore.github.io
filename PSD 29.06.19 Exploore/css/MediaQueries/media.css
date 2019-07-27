@@ -1,0 +1,32 @@
+@import url("style.css") (min-width:481px) and (max-width:840px);
+   
+
+
+
+@media screen and (max-width: 840px) {
+
+    .row1__login-sign {
+        ax-width: 200px;
+        idth: 100%;
+        eight: 100%;
+        argin-right: 10px;
+        font-size: 125px;
+        display: flex;
+        align-items: center;
+        position: relative;  
+        color: aqua;
+        background-color: rgb(172, 42, 118);
+        -moz-text-decoration-color: yellow; 
+    }
+    .login span{ 
+        color: #ffffff;
+        font-size: 214px;
+        font-weight: 500;
+        margin-left: 22px;
+        font-family: "Font Awesome", sans-serif;
+        font-size: 120px;
+        font-weight: 500;
+        letter-spacing: 1px;       
+        }
+
+}

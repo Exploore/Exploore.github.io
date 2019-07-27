@@ -1,0 +1,1452 @@
+
+@import url(MostUsed/MostUsed.css);
+@import url(MediaQueries/media.css);
+import url("style.css") (min-width:481px) and (max-width:840px);
+
+body{
+    max-width: 1608px;
+    width: 100%;
+}
+/*FullScreen*/
+.FullScreen{
+    max-width: 1608px;
+    width: 100%;
+    height: 885px;
+    margin: 0 auto;
+    background-color: lightgreen;
+}
+.FullScreen__img{
+    width: 100%;
+    height: 100%;
+    background: url(../img/PSD\ 29.06\ Ocean.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+}
+.FullScreen-header{
+    max-width: 1608px; 
+    width: 100%; 
+    height: 150px;/*changed*/
+    display: flex;
+    background-color: rgb(15, 26, 51, 0.6);
+}
+.FullScreen-header__row1{
+    width: 100%; 
+    height: 45%;/*changed 45%*/
+    display: flex;
+    border-bottom: 3px solid rgb(255, 255, 255, 0.39);
+    background-color: rgb(15, 26, 51, 0);
+}
+/*///FullScreen///*/
+
+/*Phone*/
+.row1__phone{
+    max-width: 250px;
+    width: 100%;
+    height: 100%;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    ackground-color: rgb(192, 255, 197);
+}
+.row1__phone span{
+    color: #ffffff;
+    font-family: "Font Awesome", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 17px;
+}
+.row1__phone span:before{
+    width: 16px;
+    height: 17px;
+    content: url("../img/PSD\ 29.06_phone.png");
+    position: absolute;
+    left: 0px;
+    top: 20px;
+}
+/*///Phone///*/
+
+/*Email*/
+.row1__email{
+    max-width: 550px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    ackground-color: rgb(91, 90, 160);  
+}
+.row1__email span{
+    color: #ffffff;
+    font-family: "Font Awesome", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 27px;
+    }
+    .row1__email:before{
+    width: 16px;
+    height: 17px;
+    content: url("../img/PSD\ 29.06.19_envelope.png");
+    position: absolute;
+    left: 0px;
+    top: 18px;
+    }
+/*///Email///*/
+
+/*Icons*/
+.row1__icons{
+    max-width: 230px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    ackground-color: rgb(193, 212, 124);
+}
+/*///Icons///*/
+
+/*Login-Sign*/
+.row1__login-sign{
+    max-width: 200px;
+    width: 100%;
+    height: 100%;
+    margin-right: 10px;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    position: relative;  
+    ackground-color: rgb(172, 42, 118);
+}
+.login span{ 
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 22px;
+    font-family: "Font Awesome", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;       
+}
+.login span:before{
+    width: 16px;
+    height: 17px;
+    content: url(../img/PSD\ 29.06_login.png);
+    position: absolute;
+    left: 0px;
+    top: 15px;
+}
+.sign span{ 
+    color: #ffffff;
+    font-weight: 500;
+    margin-left: 25px;
+    font-family: "Font Awesome", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px; 
+    margin-left: 38px;    
+    display: block;  
+}
+.sign span:before{
+    width: 16px;
+    height: 10px;
+    content: url(../img/PSD\ 29.06_sign.png);
+    position: absolute;
+    left: 90px;
+    top: 15px;
+}
+/*///Login-Sign///*/
+
+/*row2*/
+.FullScreen-header__row2{
+    width: 100%; /*changed*/
+    height: 65%; /*changed*/
+    display: flex;
+    background-color: rgb(15, 26, 51, 0);
+}
+.row2__logo{
+    max-width: 470px;
+    width: 100%;
+    height: 100%;
+    padding-top: 18px;
+    padding-left: 10px;
+    ackground-color: orange;
+}
+.row2__menu{
+    max-width: 780px;
+    width: 100%;
+    height: 100%;
+    padding-right: 20px;
+    ackground-color: rgb(187, 131, 28);
+}
+.row2__menu a:hover{
+    color: white;
+}
+.row2__menu li:hover{
+    color: white;
+    border-bottom: 2px solid #ffdd00;
+    cursor: pointer;
+    text-shadow: 0.5px 0.5px 0px white;
+}
+.row2__logo h3{
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 9px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    letter-spacing: 0.6px;
+}
+nav ul {
+    max-width: 780px;
+    height:80px;
+    display: flex;
+    justify-content: space-between;
+    ackground-color: rgb(81, 150, 75);
+}
+.row2__menu li{
+    list-style: none !important ;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-left: 10px; /*changed*/
+    padding-right: 10px;
+    line-height: 80px;
+}
+
+/*///row2///*/
+
+/*Big-Banner*/
+.Big-Banner{
+    max-width: 760px;
+    min-height: 330px;
+    display: flex;
+    lex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 180px;
+    text-align: center;
+    ackground-color: pink;
+}
+.Big-Banner h1{
+    height: 50px;
+    color: #ffffff;
+    font-family: "Montserrat - Black" sans-serif;
+    font-size: 75px;
+    font-weight: 800;
+    letter-spacing: 0.21px;
+    line-height: 72.28px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Big-Banner h2{
+    height: 60px;
+    font-size: 41px;
+    letter-spacing: 6.88px;
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Big-Banner p {
+    width: 737px;
+    height: 44px;
+    color: #ffffff;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    margin-bottom: 150px;
+}
+.Big-Banner__button{
+    max-width: 216px;
+    width: 100%;
+    height: 58px;
+    background-color: #efd739;
+    margin: 0 auto;
+    border-radius: 5px;
+    line-height: 58px;
+    color: #656b68;
+    font-family: "Font Awesome", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.Big-Banner__button:hover{
+    color: #656b68;
+    background-color: #c7b22a;
+    transition: .1s;
+}
+/*///Big-Banner///*/
+
+/*Find*/
+.Find{
+    max-width: 1608px;
+    width: 100%;
+    min-height: 330px;
+    margin: 0 auto;
+    ackground-color: green;  
+}
+.Find__img{
+    width: 100%;
+    height: 330px;
+    background: url(../img/PSD\ 29.06_yellow.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    color: white;
+    padding: 0px 10px; /*changed*/
+
+}
+.FindHotels{
+    height: 26px;
+    color: #000000;
+    font-family: "Montserrat", sans-serif;
+    font-size: 37px;
+    font-weight: 600;
+    line-height: 53.33px;
+    text-transform: uppercase;
+    letter-spacing: 0.21px;
+    margin-top: 60px;
+    margin-bottom: 70px;
+}
+/*///Find///*/
+/*///FullScreen///*/
+
+/*Проба
+body{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+h2, p[class^=footer]{
+    display: inline-block;
+    margin-top: 10px;
+    padding: 0px 0px;
+    ackground-color: pink;
+}
+.footer-header{
+    max-width: 1200px;
+    width: 100%;
+    min-height: 100px;
+    margin: 100px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: grey;
+    text-align: center;
+}
+///Проба///*/
+
+/*Форма проба*/
+
+form{
+    max-width: 1250px;
+    width: 100%;
+    height: 80px;
+    padding: 1px 1px;
+    display: flex;
+    ackground-color: green;
+}
+.form-wrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    ackground-color: red;
+}
+ input{
+     display: block;
+    border: none;
+    height: 40px;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-family: "Font Awesome", sans-serif; 
+}
+.input-text-wrapper{
+    width: 255px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    padding-left: 2px;
+    padding-right: 2px;
+    ackground-color: orange;
+}
+.input-text{
+    max-width: 240px;
+    width: 100%;
+    argin-top: 25px;
+    osition: relative;
+    isplay: block;
+}
+.input-date-wrapper{
+    width: 225px;
+    text-align: left;
+    padding-left: 2px;
+    padding-right: 2px;
+    ackground-color: rgb(143, 114, 59);
+}
+.input-date{
+    max-width: 210px;
+    width: 100%;
+}
+.input-number-wrapper{
+    width: 147px;
+    text-align: left;
+    padding-left: 2px;
+    padding-right: 2px;
+    ackground-color: orange;
+}
+.input-number{
+    max-width: 132px;
+    width: 100%;
+}
+.label{
+    color: #000000;
+    font-family: "Font Awesome", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+button{
+    width: 190px;
+    height: 40px;
+    margin-top: 38px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-family: "Font Awesome", sans-serif;
+    background-color: #4e4e4e;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+button:hover{
+    background-color: #252525;
+    cursor: pointer;
+}
+/*///Форма проба///*/
+
+/*Train and text*/
+.Train-and-Text{
+    max-width: 1608px;
+    width: 100%;
+    min-height: 620px;
+    margin: 0 auto;
+    display: flex;
+    ackground-color: pink;
+}
+.Train-block{
+    width: 50%;
+    min-height: 620px;
+}
+.Train-block__img{
+    width: 100%;
+    height: 100%;
+    background: url(../img/PSD\ 29.06_train.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(116, 206, 183);
+}
+.Text-block{
+    width: 50%;
+    height: 100%;
+    ackground-color: rgb(45, 128, 107);
+}
+.Text-block__img{
+    width: 100%;
+    height: 620px;
+    background: url(../img/PSD\ 29.06_back_img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 70px;
+    padding-left: 60px;
+}
+.Text-block__img  h3{
+    width: 100%;
+    color: #000000;
+    font-family: "Montserrat", sans-serif;
+    font-size: 37px;
+    font-weight: 500;
+    margin-top: -10px;
+    letter-spacing: 0.7px; 
+}
+
+.Text-block__img  p{
+    margin-top: 40px;
+    max-width: 540px;
+    width: 100%;
+    color: #040404;
+    font-family: "Lato" sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.3;
+    letter-spacing: 0.5px;
+    margin-left: 40px;
+}
+.text-margin{
+    position: relative;
+    left: -40px;
+}
+ul{
+    max-width: 450px;
+    width: 100%;
+    height: 300px;
+    ackground-color: green;
+}
+ li{
+    position: relative;
+    list-style: none;
+    max-width: 450px;
+    color: #040404;
+    font-family: "Lato" sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26.67px;
+    letter-spacing: 0.5px;
+    margin-bottom: 30px;
+}
+.Text-block__img li::before{
+    content: url("../img/PSD\ 29.06_tick_icon.png");
+    position: absolute;
+    top: 5px;
+}
+/*///Train and text///*/
+
+/*Services*/
+.Services{
+    max-width: 1608px;
+    width: 100%;
+    min-height: 680px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 70px;
+    padding-left: 10px;
+    padding-right: 10px;
+    ackground-color: grey;
+}
+.Services__list{
+    max-width: 1250px;
+    width: 100%;
+    display: flex;
+    ackground-color: lightblue;
+}
+
+/*Left ang Right blocks*/
+.Services__list__leftBlock,
+.Services__list__rightBlock{
+    width: 50%;
+    background-color: #ffffff;
+    padding-left: 70px;
+    padding-top: 70px;
+    padding-bottom: 100px;
+}
+.Services__list__leftBlock  ul,
+.Services__list__rightBlock ul{
+    max-width: 450px;
+    width: 100%;
+    height: 300px;
+    ackground-color: green;
+}
+.Services__list__leftBlock  li,
+.Services__list__rightBlock  li{
+    max-width: 450px;
+    width: 100%;
+    position: relative;
+    list-style: none;
+    color: #040404;
+    font-family: "Lato" sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26.67px;
+    letter-spacing: 0.5px;
+    margin-bottom: 30px;
+}
+.Services__list__leftBlock  li:nth-child(1)::before{
+    content: url("../img/PSD\ 29.06_plane.png");
+    position: absolute;
+    left: 0px;
+}
+.Services__list__leftBlock  li:nth-child(2)::before{
+    content: url("../img/PSD\ 29.06_house.png");
+    position: absolute;
+    left: 0px;
+}
+.Services__list__leftBlock  li:nth-child(3)::before{
+    content: url("../img/PSD\ 29.06_spoon.png");
+    position: absolute;
+    left: 0px;
+}
+.leftBlock__text,
+.rightBlock__text{
+    max-width: 400px;
+    min-height: 60px;
+    margin-left: 100px;
+    font-family: "Lato" sans-serif;
+    font-size: 16px;
+    text-align: left;
+    color: #040404;
+    font-weight: 600;
+    margin-left: 112px;
+    line-height: 1.3;
+    ackground-color: red;
+}
+.Services__list__leftBlock  h4,
+.Services__list__rightBlock  h4{
+    height: 21px;
+    color: #151515;
+    font-family: "Montserrat" sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 0.13px;
+    margin-bottom: 14px;
+}
+/*///Left and Rigrh blocks///*/
+
+/*Right block*/
+.Services__list__rightBlock  li:nth-child(1)::before{
+    content: url("../img/PSD\ 29.06_train.png");
+    position: absolute;
+    left: 0px;
+    }
+    .Services__list__rightBlock  li:nth-child(2)::before{
+    content: url("../img/PSD\ 29.06_bicycle.png");
+    position: absolute;
+    left: 0px;
+    }
+    .Services__list__rightBlock  li:nth-child(3)::before{
+    content: url("../img/PSD\ 29.06_eye.png");
+    position: absolute;
+    left: 0px;
+    }
+/*///Right block///*/
+/*///Services///*/
+
+/*Trusted*/
+.Trusted{
+    max-width: 1608px;
+    width: 100%;
+    min-height: 760px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    ackground-color: grey;
+}
+.Trusted__container-img{
+    width: 100%;
+    height: 505px;
+    background: url(../img/PSD\ 29.06_Megapolis.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 90px;
+    padding-bottom: 100px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+.Trusted__container-colorBlue{
+    width: 100%;
+    height: 255px;
+    background-color: #00a4ff;
+}
+.Trusted__container-img .Header-inner{
+    margin-bottom: 70px;
+}
+.Trusted__blocksWrapper{
+    display: flex;
+    justify-content: space-between;  
+}
+.white-blocks{
+    width: 385px;
+    min-height: 410px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    z-index: 1;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 0px;
+}
+.white-block__title{
+    margin-top: 25px;
+    margin-bottom: 22px;
+    height: 25px;
+    color: #000000;
+    font-family: "Montserrat - Extra Bold" sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 35.04px;
+    display: block;
+}
+.white-block__title-margin{
+    margin-top: 20px;
+}
+.white-block_icon-font{
+    margin-top: -10px;
+}
+.white-block__ribbon{
+    width: 395px;
+    height: 65px;
+    background-color: #f0d839;
+    overflow: visible;
+    margin-bottom: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: #000000;
+    font-family: "Montserrat" sans-serif;;
+    font-weight: 600;
+    line-height: 43.74px;
+    letter-spacing: 0.21px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+ .white-block__ribbon  i{
+     font-size: 30px;
+ }
+ .white-block__ribbon  span{
+     font-size: 35px;
+     margin-bottom: 4px;
+ }
+/*///Trusted///*/
+
+
+/*Yachtsman*/
+.yachtsman{
+    max-width: 1608px;
+    width: 100%;
+    min-height: 730px;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+}
+.yachtsman__leftBlock{
+    max-width: 418px;
+    width: 100%;
+    height: 546px;
+    border-radius: 15px;
+    background-color: pink;
+}
+.yachtsman .center{
+    padding: 94px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.yachtsman__rightBlock{
+    max-width: 740px;
+    width: 100%;
+    min-height: 418px;
+    ackground-color: rgb(145, 175, 73);
+}
+.yachtsman__rightBlock__header{
+    text-align: left;
+}
+.yachtsman__rightBlock__way{
+    max-width: 705px;
+    width: 100%;
+    height: 95px;
+    margin-top: 45px;
+    display: flex;
+    flex-direction: row;
+    border: 2px solid #00a4ff;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 100% 100%, 0% 100%);
+    background-color:#ffffff;
+}
+.yachtsman__rightBlock__leftPolygon{
+    width: 36%;
+    height: 100%;
+    padding-left: 50px;
+    padding-top: 25px;
+    clip-path: polygon(0% 0%, 90% 0%, 100% 50%, 90% 100%, 0% 100%);
+    background-color: #00a4ff; 
+}
+.yachtsman__rightBlock__middlePolygon{
+    width: 36%;
+    height: 100%;
+    text-align: center;
+    padding-top: 25px;
+    margin-left: -27px;
+    clip-path: polygon(90% 0%, 100% 50%, 90% 100%, 0% 100%, 10% 50%, 0% 0%);
+    background-color: #e4e4e4; 
+}
+.yachtsman__rightBlock__rightPolygon{
+    width: 34%;
+    height: 100%;
+    text-align: center;
+    padding-top: 25px;
+    margin-left: -25px;
+    clip-path: polygon(100% 0%, 100% 50%, 100% 100%, 0% 100%, 10% 50%, 0% 0%);
+    background-color: #ffffff; 
+}
+ .yachtsman__rightBlock  p{
+    width: 665px;
+    height: 124px;
+    color: #040404;
+    font-family: "Lato" sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 26.67px;
+    letter-spacing: 0.5px;
+    margin-top: 50px;
+ }
+.yachtsman-button{
+    padding: 20px 70px;
+    display: inline-block;
+    border-radius: 10px;
+    margin-top: 58px;
+    background-color: #eed739;
+    color: #000000;
+    font-family: "Lato" sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 21.79px;
+    text-transform: uppercase;
+    letter-spacing: 0.21px;
+}
+.yachtsman-button:hover{
+    color: black;
+    padding: 18px 68px;
+    border: 2px solid  #eed739;
+    background-color: transparent;
+}
+/*///Yachtsman///*/
+
+/*Pack and Go*/
+.Pack-and-Go{
+    max-width: 1608px;
+    width: 100%;
+    min-height: 940px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    ackground-color: grey;
+}
+.Pack-and-Go__container-img{
+    width: 100%;
+    height: 683px;
+    background: url(../img/PSD\ 29.06_Horizont.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 80px;
+    padding-bottom: 100px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+.Pack-and-Go__container-colorBlue{
+    width: 100%;
+    height: 255px;
+    background-color: #00a4ff;
+}
+.Header-inner{
+    margin-bottom: 70px;
+}
+.Pack-and-Go__Wrapper{
+    max-width: 1185px;
+    width: 100%;
+    min-height: 670px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    position: relative;
+    z-index: 1;
+    border-radius: 20px;
+    ackground-color: rgb(98, 180, 98);
+}
+.Wrapper__blocks{
+    width: 385px;
+    height: 530px;
+    background-color: rgb(255, 255, 255);
+    z-index: 2;
+}
+
+/*Left*/
+.Wrapper__blocks_left,
+.Wrapper__blocks_right{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: #fff;
+    ox-shadow: 2px 2px 2px 2px;
+}
+.Wrapper__blocks_right{
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 20px;
+}
+.Wrapper__blocks_left span,
+.Wrapper__blocks_right span{
+    margin-top: 12px;
+    height: 19px;
+    color: #000000;
+    font-family: "Lato" sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0.17px;  
+}
+.Wrapper__blocks_left h3,
+.Wrapper__blocks_right h3{
+    margin-top: 16px;
+    height: 23px;
+    color: #000000;
+    font-family: "Montserrat - Black" sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 43.74px;
+    letter-spacing: 0.19px;
+}
+.Wrapper__blocks_left p,
+.Wrapper__blocks_right p{
+    margin-top: 18px;
+    width: 235px;
+    height: 43px;
+    color: #040404;
+    font-family: "Lato" sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 26.67px;
+    letter-spacing: 0.48px;
+    margin: 25px auto 0px;;
+}
+.Wrapper__blocks_left h4,
+.Wrapper__blocks_right h4{
+    height: 30px;
+    margin-top: 14px;
+}
+.Wrapper__blocks_left h4 span,
+.Wrapper__blocks_right h4 span{
+    width: 76px;
+    color: #000000;
+    font-family: "Montserrat - Black" sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: -5px;
+    letter-spacing: -1px;
+}
+h4 img{
+    margin-top: -8px;
+}
+.Pack-and-Go__button{
+    padding: 14px 40px;
+    background-color: #ebd338;
+    display: inline-block;
+    margin-top: 18px;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #000000;
+    font-family: "Montserrat - Black" sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19.48px;
+    text-transform: uppercase;
+}
+.Pack-and-Go__button:hover{
+    color: rgb(255, 255, 255);
+    background-color: #00a4ff;
+}
+/*///Left///*/
+
+/*Mid*/
+.Wrapper__blocks_mid{
+    width: 680px;
+    height: 417px;
+    clip-path: polygon(85% 0, 100% 50%, 85% 100%, 0% 100%, 0 46%, 0% 0%);
+    transform: rotate(90deg);
+    margin-top: 110px;
+    border-radius: 20px;
+    position: absolute;
+    z-index: 5;
+    left: 50%;
+    margin-left: -340px;
+    box-shadow: 2px 2px 2px 2px;
+}
+.Wrapper__blocks_mid img{
+    transform: rotate(-90deg);
+    position: absolute;
+    margin-top: 77px;
+    margin-left: -77px;
+    left: 0px;
+}
+/*///Mid///*/
+
+/*Right*/
+.Wrapper__blocks_right{
+    border-top-right-radius: 20px;
+}
+/*///Right///*/
+/*///Pack and Go///*/
+
+/*Go Exploore*/
+.Go-Exploore{
+    max-width: 1608px;
+    height: 836px;
+    margin: 0 auto;
+    margin-top: -2px;
+    isplay: flex;
+    ackground: pink;
+}
+.Go-Exploore__full-screen-img{
+    width: 100%;
+    height: 100%;
+    background: url(../img/PSD\ 29.06_Fullscreen_GO.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    padding-top: 100px;
+}
+.Go-Exploore__centreal-container{
+    max-width: 1250px;
+    width: 100%;
+    min-height: 505px;
+    margin: 60px auto 0px;;
+    display: flex;
+    justify-content: space-between;
+    ackground-color: green;
+}
+.centreal-container__inner-block{
+    width: 383px;
+    height: 505px;
+    border-radius: 20px;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+}
+.centreal-container__inner-block  h2{
+    width: 270px;
+    height: 24px;
+    color: #000000;
+    font-family: "Montserrat - Black" sans-serif;
+    font-size: 25px;
+    font-weight: 800;
+    line-height: 43.74px;
+    letter-spacing: -1px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+.centreal-container__inner-block  p{
+    width: 290px;
+    height: 120px;
+    color: #040404;
+    font-family: "Lato" sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26.67px;
+    letter-spacing: 0.5px;
+    margin: 0 auto;
+}
+.Go-Exploore__button{
+    padding: 14px 50px;
+    background-color: #ebd338;
+    display: inline-block;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #000000;
+    font-family: "Montserrat - Black" sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19.48px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 235px;
+    left: 50%;
+    margin-left: -85px;
+    }
+    .Go-Exploore__button:hover{
+    color: rgb(255, 255, 255);
+    background-color:#00a4ff ;
+    }
+/*///Go Exploore///*/
+
+/*Graffiti*/
+.Graffiti{
+    max-width: 1608px;
+    width: 100%;
+    height: 860px;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 90px;
+    display: flex;
+    ackground-color: lightgreen;
+}
+.Graffiti__image-wrapper{
+    max-width: 880px;
+    width: 100%;
+    max-height: 670px;
+    height: 100%;
+    display: inline-block;
+    ackground-color: red;
+}
+.Graffiti-img{
+    width: 100%;
+    height: 100%;
+    background: url(../img/PSD\ 29.06.19_graffiti.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.Graffiti__card{
+    max-width: 600px;
+    width: 100%;
+    height: 450px;
+    border-radius: 20px;
+    position: relative;
+    top: 100px;
+    right: 150px;
+    padding-top: 40px;
+    padding-left: 50px;
+    box-shadow: 0px 0px 3px 1.5px rgba(173,173,173,1);
+    background-color: rgb(255, 255, 255);
+}
+ .Graffiti__card  span{
+    height: 20px;
+    color: #000000;
+    font-family: "Lato" sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35.04px;
+    letter-spacing: -1px;
+    display: block;
+    margin-top: 20px;
+ }
+ .Graffiti__card h3{
+    height: 31px;
+    color: #000000;
+    font-family: "Montserrat - Black" sans-serif;
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 54.41px;
+    letter-spacing: 0.21px;
+ }
+ .Graffiti__icons__wrapper{
+    max-width: 100px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -22px;
+    ackground-color: orange;
+}
+.Graffiti__icons__wrapper:nth-child(3){
+    text-align: left;
+    align-self: flex-end;
+    ackground-color: green;
+}
+.Graffiti__icons__wrapper img{
+    margin: 0 auto;
+    display: inline-block;
+    width: 55%;
+    height: auto;
+}
+ .Graffiti__icons{
+    width: 62%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    ackground-color: red;
+ }
+.flight{
+    height: 19px;
+    color: #303030;
+    font-family: "Lato" sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 29.41px;
+    letter-spacing: 0.21px;
+    margin: 0 auto;
+}
+.Graffiti__card__text{
+    width: 511px;
+    height: 44px;
+    color: #040404;
+    font-family: "Montserrat - Black" sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26.67px;
+    letter-spacing: -0.5px;
+}
+.Graffiti__card__price-and-button{
+    max-width: 450px;
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Graffiti-button{
+    margin-top: 0px;
+}
+.Graffiti-button:hover{
+    color: black;
+    padding: 10px 40px;
+    border: 2px solid  #eed739;
+    background-color: transparent;
+    }
+/*///Graffiti///*/
+
+/*Customer-reviews*/
+.Customer-reviews__hero-foto{
+    max-width: 1608px;
+    width: 100%;
+    height: 592px;
+    display: flex;
+    margin: 0 auto;
+    background-color: pink;
+}
+.hero-foto__img{
+    width: 100%;
+    height: 100%;
+    background: url(../img/PSD\ 29.06_RuinsFoto.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 70px;
+    text-align: center;
+}
+.hero-foto__img *{
+    color: white;
+}
+.hero-foto__img p{
+    max-width: 970px;
+    width: 100%;
+    min-height: 71px;
+    margin: 0 auto;
+    font-style: italic;
+    margin-top: 70px;
+    color: #ffffff;
+    font-family: "Lato - Medium Italic";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26.67px;
+    letter-spacing: 0.5px;
+    ackground-color: orange;
+}
+.stars{
+  margin-top: 30px;
+}
+.hero-foto__img__card{
+    max-width: 250px;
+    width: 100%;
+    min-height: 70px;
+    margin: 0 auto;
+    display: flex;
+    text-align: left;
+    margin-top: 60px;
+    ackground-color: green;
+}
+.card__foto{
+    width: 69px;
+    height: 69px;
+    border-radius: 50px;
+    display: flex;
+    background: url(../img/PSD\ 29.06_ManFoto.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #fff;
+}
+.hero-foto__img__card p{
+    padding: 0px;
+    margin: 0px;
+    min-height: 0px;
+    margin-left: 20px;
+}
+.card__text p:nth-child(1){
+    height: 20px;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 900;
+    letter-spacing: 0.21px;
+    font-style: normal;
+    margin-top: 10px;
+}
+.card__text p:nth-child(2){
+    height: 12px;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.75px;
+    letter-spacing: 0.5px;
+    font-style: normal;
+    margin-top: 5px;
+}
+/*///Customer-reviews///*/
+
+/*Contact*/
+.Contact{
+    max-width: 1608px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.Contact__header{
+    width: 100%;
+    height: 550px;
+    ackground-color: grey;
+}
+.Contact__header__mountain{
+    width: 100%;
+    height: 100%;
+    background: url(../img/PSD\ 29.06_Mountain2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 145px;
+    text-align: center;
+}
+.Contact__header__mountain h2{
+    height: 33px;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 37px;
+    font-weight: 900;
+    line-height: 53.33px;
+    letter-spacing: 0.21px;
+}
+.Contact__header__mountain h3{
+    height: 26px;
+    color: #ffffff;
+    font-family: "Lato" sans-serif;
+    font-size: 37px;
+    font-weight: 500;
+    line-height: 53.33px;
+    letter-spacing: 0.5px;
+}
+.mountain__logo{
+    width: 120px;
+    height: 180px;
+    background: url(../img/PSD\ 29.06_YellowLogo.png);
+    background-repeat: no-repeat;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 180px;
+    position: relative;
+    z-index: 1;
+}
+.Contact__main{
+    width: 100%;
+    height: 430px;
+    ackground-color: pink;
+}
+
+/*row1*/
+.Contact__main__row1{
+    width: 100%;
+    height: 80px;
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-between;
+    ackground-color: green;
+}
+.row1__card{
+    max-width: 320px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.card__text-inner{
+    display: block;
+    margin-left: 20px;
+}
+.row1__card__icon1{
+    width: 70px;
+    height: 55px;
+    background: url(../img/PSD\ 29.06_Envelope_Icon.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.row1__card__icon2{
+    width: 70px;
+    height: 55px;
+    background: url(../img/PSD\ 29.06_CellPhone.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.row1__card__icon3{
+    width: 70px;
+    height: 55px;
+    background: url(../img/PSD\ 29.06_Map_Icon.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.row1__card__text p:nth-child(1){
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: -5px;
+    margin-bottom: 10px;
+}
+.row1__card__text p:nth-child(2){
+    line-height: 1;
+    color: #555555;
+    font-family: "Times New Roman PSMT";
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+}
+.row1__card__text p:nth-child(3){
+    line-height: 1;
+    color: #555555;
+    font-family: "Times New Roman PSMT";
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.4px;
+}
+/*///row1///*/
+
+/*row2*/
+.Contact__main__row2{
+    max-width: 680px;
+    width: 100%;
+    min-height: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 120px auto 0px;
+}
+.row2__social-icons{
+    width: 67px;
+    height: 67px;
+    border-radius: 50px;
+    border: 2px solid #f0d839;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row2__social-icons:hover{
+    background-color: rgb(236, 245, 115);
+}
+/*///row2///*/
+
+/*footer*/
+.Contact__footer{
+    width: 100%;
+    height: 190px;
+    background-color:#f0d839 ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.Contact__footer a:hover{
+    color: black;
+}
+/*///footer///*/
+/*///Contact///*/
+/*-------------------------------------WebSite is ready----------------------*/

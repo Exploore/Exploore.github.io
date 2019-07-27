@@ -1,0 +1,75 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul, li,
+p,
+h1, h2, h3, h4, h5, h6{
+    padding: 0;
+    margin: 0;
+}
+
+section{
+    ackground-color: green;
+}
+
+.center{
+    max-width: 1250px;
+    width: 100%;
+    height:100% ;
+    margin: 0 auto;
+    ackground-color: orange;
+}
+
+p{
+    color: #040404;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+/*Header-inner*/
+.Header-inner__MostUsed{ /*<header>*/
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    ackground-color: pink;
+}
+
+h2{
+    color: #000000;
+    font-family: "Montserrat";
+    font-size: 2.3rem;
+    font-weight: 900;
+    margin-bottom: .6rem;
+    isplay: inline-block;/*changed-added*/
+}
+
+h3{
+    color: #000000;
+    font-family: "Lato";
+    font-size: 37px;
+    font-weight: 500;
+    letter-spacing: -1px; 
+    isplay: inline-block; /*changed-added*/
+}
+/*///Header-inner///*/
+
+a{
+    color: white;
+  
+}
+a:hover{
+    text-decoration: none;
+    color: #ffdd00;
+}
+
+
+
+
+
+
